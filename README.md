@@ -1,4 +1,4 @@
-# EdgeDetection
+# edge-detection
 Implementations of edge detection methods (Gradient, Laplacian, and Canny) <br/>
 Test images were loaded through a colab env
 
