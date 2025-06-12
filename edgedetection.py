@@ -59,10 +59,6 @@ plt.show()
 """# Convolution Method"""
 
 def conv2dim(input_numpy, kernel_numpy):
-    '''
-    In this function, you are required to implement the 3rd step of the function above without using torch.
-    You are free to use "for" loops or vectorized code.
-    '''
     b_s, input_channels, input_h, input_w = input_numpy.shape
     output_channels, _, k_h, k_w = kernel_numpy.shape
 
